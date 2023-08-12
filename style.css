@@ -24,6 +24,7 @@ font-family: 'Work Sans', sans-serif;
 .nav-container ul{
     display: flex;
    gap: 30px;
+   font-style: italic;
 }
 
 .nav-container ul li{
@@ -35,6 +36,7 @@ font-family: 'Work Sans', sans-serif;
     text-decoration: none;
     color: white;
     font-size: 20px;
+    
 }
 
 .nav-container a:hover{
@@ -46,6 +48,64 @@ font-family: 'Work Sans', sans-serif;
     font-size: 50px;
     font-weight: bold;
 }
+
+/* starting main section banner  */
+
+.banner-container{
+    height: 100vh;
+    background-image: url("/asset/image/background.jpg"), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+     text-align: center;
+     align-items: center;
+}
+
+.ban-ttl{
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+}
+.red{
+    color: red;
+}
+
+.ban-para{
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    width: 50%;
+  margin: auto;
+}
+
+.ban-btn{
+    padding: 15px 34px;
+    border: none;
+     
+}
+.btn-red{
+    background-color: red;
+    color: white;
+}
+.btn-white{
+    color: red;
+}
+
+ .about-container{
+    height: 100vh;
+    background-image: url("/asset/image/footer-bg.png"), linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+ }
+
+ 
+
+ 
 
 
 
