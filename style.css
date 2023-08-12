@@ -101,11 +101,104 @@ font-family: 'Work Sans', sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+      
  }
 
- 
 
+
+ #img-icon-size{
+    width: 80px;
+    margin-bottom: 5px;
+ }
+
+ .box{
+    width: 190px;
+    height: 190px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+ }
+
+ .about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
  
+.serve-para{
+    width: 50%;
+}
+
+.box-container,.box-div-two{
+    display: flex;
+
+}
+
+.lt{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  
+}
+
+.ceo-container{
+    display: flex;
+    align-items: center;
+    /* text-align: center;  */
+    margin-top: 13px;
+    gap: 25px;
+}
+ .ceo-img{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+
+ .ceo-btnn{
+    
+    background-color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 10px;
+ }
+ .ceo-btnn:hover{
+    color: red;
+ }
+
+ .ser-btn{
+    margin-bottom: 10px;
+    background-color: rgb(220, 212, 212);
+    padding: 18px 28px;
+    border: none;
+    border-radius: 10px;
+ }
+
+ .serv-head{
+    font-size: 40px;
+    font-weight: bold;
+ }
+
+ .serve-para{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-style: italic;
+ }
+
+ .left-side ol li{
+    font-size: 15px;
+     
+ }
+
+ .ceo-img{
+    border-right: 2px solid red;
+    padding-right: 15px;
+ }
 
 
 
